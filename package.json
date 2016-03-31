@@ -1,0 +1,30 @@
+{
+  "name": "@jimjkelly/cloudfront-invalidate",
+  "version": "0.0.1",
+  "description": "Invalidates a CloudFront Distribution, the whole thing, without much fuss.",
+  "dependencies": {
+    "aws-sdk": "^2.2.48",
+    "node-uuid": "^1.4.7"
+  },
+  "main": "index.js",
+  "bin": {
+    "cloudfront-invalidate": "bin/cloudfront-invalidate.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jimjkelly/cloudfront-invalidate.git"
+  },
+  "keywords": [
+    "cloudfront",
+    "aws"
+  ],
+  "author": "James Kelly",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jimjkelly/cloudfront-invalidate/issues"
+  },
+  "homepage": "https://github.com/jimjkelly/cloudfront-invalidate#readme"
+}
